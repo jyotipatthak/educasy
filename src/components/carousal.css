@@ -1,0 +1,114 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-content {
+    padding: 20px;
+    min-width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-content.active {
+    transform: scale(1.1);
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.control {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: var(--color3);
+}
+
+
+.quiz-carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.quiz-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.quiz-carousel-item {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.number-dot {
+    font-family: 'Bagel Fat One';
+    background-color: var(--color3);
+    color: var(--dark-text-color);
+    display: flex;
+    min-width:1rem;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 !important;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-control {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.number-dot.active {
+    background-color: var(--color4);
+    border: 2px solid var(--color2)
+}
+

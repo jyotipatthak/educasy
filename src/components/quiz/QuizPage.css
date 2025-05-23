@@ -1,0 +1,171 @@
+
+
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.quiz select,
+.quiz input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+select {
+    width: 120px;
+}
+
+.true-false {
+    display: flex;
+    justify-content: space-between;
+}
+
+.matching {
+    display: flex;
+}
+
+.options-left {
+    width: 50%;
+}
+
+.options-left .option {
+    margin-bottom: 15px;
+}
+
+.options-left select {
+    width: 100%;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #007bff;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: var(--color2);
+}
+
+
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.matching {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.options-left,
+.options-right {
+    width: 45%;
+}
+
+.option {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.options-left .option {
+    background-color: #e0f7fa;
+    /* Light blue for left options */
+}
+
+.options-right .option {
+    background-color: #ffecb3;
+    /* Light yellow for right options */
+}
+
+.option:hover {
+    background-color: #d3d3d3;
+    /* Hover effect for better user interaction */
+}
+
+.option:active {
+    background-color: #B0E0E6;
+    /* Active selection color */
+}
+
+.quiz-page {
+    background-color: var(--color3);
+    color: var(--dark-text-color);
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blank-space {
+    cursor: pointer;
+    padding: 0 5px;
+    background-color: #b0e0e6;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 3px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #e0f7fa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.option:hover {
+    background-color: #c0e4e7;
+    /* Light hover effect */
+}
+
+.option:active {
+    background-color: #80d0d4;
+    /* Active selection effect */
+}
+

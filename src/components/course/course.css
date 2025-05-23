@@ -1,0 +1,8 @@
+.course-detail{
+    color: var(--background-color);
+    min-height: 70vh;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}

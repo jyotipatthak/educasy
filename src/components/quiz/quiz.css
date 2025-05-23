@@ -1,0 +1,23 @@
+.quiz-page{
+    background-color: var(--color3);
+    color: var(--dark-text-color);
+}
+.mcq-radio {
+    display: none;
+}
+
+.mcq-option {
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.mcq-radio:checked+label{
+    border: 2px solid var(--color3);
+}
+
+.mcq-radio:checked{
+    display: inline-block;
+}
