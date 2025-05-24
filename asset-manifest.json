@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/educasy/static/css/main.40ded106.css",
+    "main.js": "/educasy/static/js/main.39e4134b.js",
+    "static/js/453.1ab6d116.chunk.js": "/educasy/static/js/453.1ab6d116.chunk.js",
+    "index.html": "/educasy/index.html",
+    "main.40ded106.css.map": "/educasy/static/css/main.40ded106.css.map",
+    "main.39e4134b.js.map": "/educasy/static/js/main.39e4134b.js.map",
+    "453.1ab6d116.chunk.js.map": "/educasy/static/js/453.1ab6d116.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40ded106.css",
+    "static/js/main.39e4134b.js"
+  ]
+}
